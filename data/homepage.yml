@@ -1,0 +1,129 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Explore, Learn, Connect"
+  content : "A trail app that focuses on engagement, accessibility, and community building. Explore your city's trails in a whole new way. Learn about your city's history, share content with others in your community and attend events all while taking in nature."
+  image : "images/trail.png"
+  # button
+  button:
+    enable : false
+    label : "Watch Demo"
+    link : "https://youtu.be/17F2QGUsTyA"
+  # demo video
+  video:
+    enable : false
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "How it works"
+  content : "Simply download the app from the App Store or Google Play Store, and pick a trail to explore. Once you are on the trail, you can navigate and see important utilities and other trail information. Whether you want to simply explore, interact with the map or connect with your community, that is entirely up to you. NOTE: The app is still under development."
+  image : "images/crosstown trail trail overview.png"
+  # button
+  button:
+    enable : true
+    label : "Watch Demo"
+    link : ""
+
+###################### Call to action ########################
+cta:
+  enable : false
+  title : "Buy one Get One Free Taba Cream"
+  content : "Available for limited time only. Grab one while you still can!"
+  image : "images/cta.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Products"
+    link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Features"
+  subtitle : "Features that make us stand out, and enable you to have a fulfilling trail experience"
+  materialItem:
+    # material item loop
+    - title : "Live Navigation"
+      image : "images/live navigation.png"
+      content : "Tired of getting lost on trails? Live navigation helps you easily find your way as you go."
+      
+    # material item loop
+    - title : "Landmarks"
+      image : "images/landmark virtual history tour.png"
+      content : "Learn about the history of your community through interaction with digital augmented reality landmarks or a lesson with Oakley, digital trails' virtual history tour guide."
+      
+    # material item loop
+    - title : "Points of Interest"
+      image : "images/poi_coming_soon.png"
+      content : "Found a rare bird? Maybe a nice spot for an Instagram picture? Discover and leave points of interest on the map."
+      
+    # material item loop
+    - title : "Events"
+      image : "images/events_comming_soon.png"
+      content : "Participate in organized events with your community, ranging from bike groups to yoga sessions."
+
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "Key Advantages of Our App"
+  subtitle : "Here is how you benefit from using the Digital Trails app" 
+  image : "images/advantages.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Engaging trail experience"
+    - listItem : "Community building"
+    - listItem : "Entertaining exercise"
+    - listItem : "Trail accessibility"
+    - listItem : "Easy Wayfinding"
+    - listItem : "Gamification"
+
+
+######################## Promo Video ##########################
+video:
+  enable : false
+  title : "How Does It Work?"
+  content : "Here is a demo video of the Digital Trails app"
+  videoThumb : "images/app_image_banner.png"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : false
+  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : false
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "john Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
