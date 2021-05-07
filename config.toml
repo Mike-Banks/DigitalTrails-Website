@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://digitaltrails.ca"
+baseURL = "https://digitaltrails.netlify.app/"
 languageCode = "en-us"
 title = "Digital Trails"
 theme = "hargo"
@@ -95,10 +95,10 @@ mapMarker = "images/marker.png"
 googleAnalitycsID = "" # Your ID
 # Contact Information
 #mobile = "0124857985320"
-email = "info@digitaltrails.ca"
+#email = "info@digitaltrails.ca"
 location = "Ontario, Canada"
 # copyright
-copyright = "| Copyright &copy; 2020 [Digital Trails](https://digitaltrails.ca) All Rights Reserved |"
+copyright = "| Copyright &copy; 2020 [Digital Trails](https://digitaltrails.netlify.app/) All Rights Reserved |"
 
   # Preloader
   [params.preloader]
